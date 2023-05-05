@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Add Employee</h1>
+    <form method="post">
+        {{ form.csrf_token }}
+        {{ form.full_name.label }}: {{ form.full_name }}
+        {{ form.position.label }}: {{ form.position }}
+        {{ form.department.label }}: {{ form.department }}
+        {{ form.hiring_date.label }}: {{ form.hiring_date }}
+        {{ form.email.label }}: {{ form.email }}
+        {{ form.phone.label }}: {{ form.phone }}
+        {{ form.address.label }}: {{ form.address }}
+        {{ form.skills.label }}: {{ form.skills }}
+        <button type="submit" class="btn btn-primary">Add Employee</button>
+    </form>
+{% endblock %}
