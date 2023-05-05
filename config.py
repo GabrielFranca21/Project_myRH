@@ -1,8 +1,8 @@
 # config.py
 DATABASE = {
     'host': 'mysql.queirozsantana.com.br',
-    'user': 'mysql.queirozsantana',
+    'user': 'queirozsantana',
     'password': 'banco0001',
-    'db': 'mysql.queirozsantana'
+    'db': 'queirozsantana'
 }
 SECRET_KEY = "employee"
